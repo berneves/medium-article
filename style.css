@@ -1,0 +1,88 @@
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+body{
+  color: #494949;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+}
+
+.banner{
+  background-image: url(https://images.unsplash.com/photo-1599146467200-9244fd209d60?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max);
+  background-origin: padding-box;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: white;
+  padding: 120px 0;
+  ;
+}
+
+.banner h1{
+  font-size: 38px;
+  color:white;
+}
+
+h1, h2{
+  font-family: "Montserrat", sans-serif;
+}
+
+h2{
+  color: #A0A0A0;
+  font-weight: normal;
+  display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.banner p{
+  font-size: 30px;
+  color:white;
+  font-style: italic;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none
+}
+
+.link-medium:hover {
+  background-image: linear-gradient(to bottom, rgba(125, 200, 179, 1), rgba(125, 200, 179, 1));
+}
+
